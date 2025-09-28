@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Usuário - JEEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JEEB</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="equipamentos.html">Equipamentos</a>
+            <a href="painel.html" class="active">Painel</a>
+            <a href="chat.html">Chat</a>
+        </nav>
+    </header>
+
+    <section class="painel">
+        <h2>Meu Painel</h2>
+        
+        <div class="perfil">
+            <img src="https://via.placeholder.com/80" alt="Usuário">
+            <div>
+                <h3>Marcos Nunes</h3>
+                <p><strong>Email:</strong> marcosnunes@email.com</p>
+                <p><strong>Cidade:</strong> Arapiraca/AL</p>
+            </div>
+        </div>
+
+        <div class="acoes">
+            <button onclick="alert('Função em desenvolvimento!')">+ Novo Equipamentos</button>
+        </div>
+        <h3>Meus Equipamentos</h3>
+        <div class="grid">
+            <div class="card">
+                <img src="img/img-furadeira.png" alt="Furadeira">
+                <h4>Furadeira Profissional</h4>
+                <p>R$ 45/dia</p>
+                <button>Editar</button>
+                <button>Remover</button>
+            </div>
+            <div class="card">
+                <img src="img/img-serra_eletrica.png" alt="Serra">
+                <h4>Serra Elétrica</h4>
+                <p>R$ 70/dia</p>
+                <button>Editar</button>
+                <button>Remover</button>
+            </div>
+    </div>
+
+    <h3>Pedidos Recebidos</h3>
+    <div class="pedidos">
+      <div class="pedido">
+        <p><strong>Okarun</strong> solicitou <em>Furadeira Profissional</em> (2 dias)</p>
+        <button>Aceitar</button>
+        <button>Recusar</button>
+      </div>
+      <div class="pedido">
+        <p><strong>Monkey D. Luffy</strong> solicitou <em>Serra Elétrica</em> (1 dia)</p>
+        <button>Aceitar</button>
+        <button>Recusar</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+        <p>&copy; 2025 JEEB - Plataforma de Trocas e Aluguel. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

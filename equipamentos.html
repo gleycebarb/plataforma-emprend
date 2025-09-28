@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos - JEEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JEEB</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="equipamentos.html" class="active">Equipamentos</a>
+            <a href="painel.html">Painel</a>
+            <a href="chat.html">Chat</a>
+        </nav>
+    </header>
+
+    <section class="filtros">
+        <input type="text" placeholder="Buscar equipamentos...">
+        <select>
+            <option value="">Categoria</option>
+            <option>Construção</option>
+            <option>Eventos</option>
+            <option>Escritório</option>
+        </select>
+        <select>
+            <option value="">Localização</option>
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Minas Gerais</option>
+        </select>
+        <button>Filtrar</button>
+    </section>
+    
+    <section class="equipamentos">
+        <h3>Equipamentos disponíveis</h3>
+        <div class="grid">
+        <div class="card">
+            <img src="img/img-furadeira.png" alt="Furadeira">
+            <h4>Furadeira Profissional</h4>
+            <p>R$ 45/dia • São Paulo/SP</p>
+            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+        </div>
+        <div class="card">
+            <img src="img/img-serra_eletrica.png" alt="Serra">
+            <h4>Serra Elétrica</h4>
+            <p>R$ 70/dia • Rio de Janeiro/RJ</p>
+            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+        </div>
+        <div class="card">
+            <img src="img/img-conj_cadeiras.png" alt="Cadeiras">
+            <h4>Conjunto de Cadeiras</h4>
+            <p>R$ 100/dia • Belo Horizonte/MG</p>
+            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 JEEB - Plataforma de Trocas e Aluguel. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
