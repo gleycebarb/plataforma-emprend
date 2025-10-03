@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <h1>JEEB</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="equipamentos.html" class="active">Equipamentos</a>
@@ -17,8 +16,9 @@
         </nav>
     </header>
 
-    <section class="filtros">
-        <input type="text" placeholder="Buscar equipamentos...">
+    <section class="filtros conteudo">
+        <h2>Buscar Equipamentos</h2>
+        <input type="text" placeholder="Insira o nome do equipamento">
         <select>
             <option value="">Categoria</option>
             <option>Construção</option>
@@ -33,34 +33,31 @@
         </select>
         <button>Filtrar</button>
     </section>
-    
     <section class="equipamentos">
         <h3>Equipamentos disponíveis</h3>
         <div class="grid">
-        <div class="card">
-            <img src="img/img-furadeira.png" alt="Furadeira">
-            <h4>Furadeira Profissional</h4>
-            <p>R$ 45/dia • São Paulo/SP</p>
-            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
-        </div>
-        <div class="card">
-            <img src="img/img-serra_eletrica.png" alt="Serra">
-            <h4>Serra Elétrica</h4>
-            <p>R$ 70/dia • Rio de Janeiro/RJ</p>
-            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
-        </div>
-        <div class="card">
-            <img src="img/img-conj_cadeiras.png" alt="Cadeiras">
-            <h4>Conjunto de Cadeiras</h4>
-            <p>R$ 100/dia • Belo Horizonte/MG</p>
-            <button onclick="location.href='detalhes.html'">Ver detalhes</button>
-        </div>
+            <div class="card">
+                <img src="img/img-furadeira.png" alt="Furadeira">
+                <h4>Furadeira Profissional</h4>
+                <p>R$ 45,00/dia • São Paulo/SP</p>
+                <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+            </div>
+            <div class="card">
+                <img src="img/img-serra_eletrica.png" alt="Serra">
+                <h4>Serra Elétrica</h4>
+                <p>R$ 70,00/dia • Rio de Janeiro/RJ</p>
+                <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+            </div>
+            <div class="card">
+                <img src="img/img-conj_cadeiras.png" alt="Cadeiras">
+                <h4>Conjunto de Cadeiras</h4>
+                <p>R$ 100,00/dia • Belo Horizonte/MG</p>
+                <button onclick="location.href='detalhes.html'">Ver detalhes</button>
+            </div>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2025 JEEB - Plataforma de Trocas e Aluguel. Todos os direitos reservados.</p>
-    </footer>
-    
 </body>
 </html>
