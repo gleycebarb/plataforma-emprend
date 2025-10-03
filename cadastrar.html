@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar - JEEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JEEB - Plataforma de Trocas e Aluguel</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="ajuda.html">Ajuda</a>
+            <a href="cadastrar.html">Cadastrar</a>
+            <a href="login.html">Entrar</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <h2>Cadastro de Usuário</h2>
+        <form action="/submit_registration" method="POST">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" required><br><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone"><br><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JEEB - Plataforma de Trocas e Aluguel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
